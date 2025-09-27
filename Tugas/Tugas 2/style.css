@@ -1,0 +1,164 @@
+/* inndexx */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bagatas {
+    text-align: center;
+}
+
+.pengantar {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px #b9b0b0;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.garis {
+    font-size: larger;
+    color: blue;
+}
+
+.titlepengantar {
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+.paragraf {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.avatar {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px #b9b0b0;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.gariss {
+    font-size: larger;
+    color: blue;
+}
+
+.titleavatar {
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+.paragraf1 {
+     margin-left: 24px;
+     margin-right: 24px;
+}
+
+.paragraf2 {
+     margin-left: 24px;
+     margin-right: 24px;
+}
+
+.bio {
+    text-align: center;
+    margin: 0.5cm;
+}
+
+/* biodata */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.atas {
+    text-align: center;
+}
+
+.Biodata {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px #b9b0b0;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.biodata {
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+.garis1 {
+    font-size: larger;
+    color: blue;
+}
+
+.fotodiri {
+    border-radius: 250px;
+}
+
+.Hobi {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px #b9b0b0;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.hobi {
+    margin-left: 24px;
+    font-size: 24px; 
+}
+
+.garis2 {
+    font-size: larger;
+    color: blue;
+}
+
+.Cita-cita {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px #b9b0b0;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.cita-cita {
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+.garis3 {
+    font-size: larger;
+    color: blue;
+}
+
+.Kontak {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px #b9b0b0;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.kontak {
+    margin-left: 24px;
+    font-size: 24px;
+}
+
+.garis4 {
+    font-size: larger;
+    color: blue;
+}
+
+.index {
+    text-align: center;
+    margin: 0.5cm;
+}
