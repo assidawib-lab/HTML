@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "BismillahScript";
+    src: url("Bismillah Script.ttf");
+}
+
+header {
+    background-color: aquamarine;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "BBH Sans Bartle";
+}
+
+article {
+    background-color: rgb(237, 231, 231);
+    padding: 12px;
+    border-radius: 12px;
+}
+
+article h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(7, 65, 65);
+    letter-spacing: 0.5cm;
+}
+
+article p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1cm;
+}
+
+.PW {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.semua {
+    font-weight: bold;
+}
+
+.gf {
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.fl {
+    font-style: italic;
+}
+
+blockquote {
+    padding: 12px;
+    background-color: rgb(158, 204, 243);
+    border-left: 5px solid blue;
+}
+
+.note {
+    padding: 12px;
+    background-color: rgb(247, 163, 163);
+    border-left: 5px solid red;
+    border-radius: 12px;
+    word-spacing: 0.5cm;
+}
+
+.Pen {
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.signature {
+    font-family: "BismillahScript", cursive;
+    font-size: xx-large;
+    color: #b91c1c;
+    text-align: right;
+}
+
+.foot {
+    text-align: center;
+}
