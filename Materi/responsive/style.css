@@ -1,0 +1,128 @@
+/* ===== Layout Dasar ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+.site-header {
+  background: #e8effb;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.site-header h1 {
+  margin-bottom: 0.5rem;
+}
+.site-header p {
+  color: #555;
+}
+
+/* Kontainer */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.main-nav {
+  margin-top: 15px;
+}
+
+.main-nav ul {
+  /* reset bunder bunder nya */
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  /* agar list nya kebawah otomatis */
+  flex-wrap: wrap;
+}
+
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  background: peachpuff;
+  /* 6px = atas bawah */
+  /* 20px = kiri kanan */
+  padding: 6px 20px;
+  display: block;
+}
+
+.main-nav a {
+  border-radius: 16px;
+  
+}
+
+.main-nav a:hover {
+  background-color:  rgb(243, 147, 63);
+}
+
+/* ukuran 1024px => desktop++ */
+@media screen and (min-width: 1024px) {
+  /* masukkan tag / target selector */
+  .site-header {
+    background: plum;
+    color: white;
+  }
+  .site-header p {
+    color: white;
+  }
+}
+
+/* ukuran 768-1023px => tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* masukkan tag / target selector */
+  .site-header {
+    background: thistle;
+    color: white;
+  }
+  .site-header p {
+    color: white;
+  }
+
+  .main-nav ul li {
+    /* boleh melebar */
+    flex-grow: 1;
+    /* boleh menyusut */
+    flex-shrink: 1;
+    /* lebar dasar 33.33 */
+    flex-basis: calc(33.33%);
+  }
+}
+
+/* ukuran max 767px => smartphone */
+@media screen and (max-width: 767px) {
+  /* masukkan tag / target selector */
+  .site-header h1 {
+    /* kecilin font biar ga bablas */
+    font-size: 24px;
+    color: aquamarine;
+  }
+  .site-header p {
+    /* kecilin font biar ga bablas */
+    font-size: 14px;
+  }
+  .main-nav ul li {
+    /* boleh melebar */
+    flex-grow: 1;
+    /* boleh menyusut */
+    flex-shrink: 1;
+    /* lebar dasar 100% */
+    flex-basis: calc(100%);
+  }
+}
