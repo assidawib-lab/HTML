@@ -19,20 +19,21 @@ body {
     text-decoration: none;
     color: black;
     padding: 25px;
-    width: 20%;
-    box-shadow: 0 3px 6px #b9b0b0;
-    border-radius: 50px;
+}
+
+.selection ul {
+    flex-wrap: wrap;
 }
 
 .selection a:hover {
-    background-color: #ccc;
+    background-color:  rgb(144, 175, 189);
+    border-radius: 50px;
 }
 
 /* AKTIF */
 .warna {
-    background-color: transparent;
+    background-color: blue;
     border-radius: 50px;
-    background: blue;
 }
 
 .warna b {
@@ -355,4 +356,52 @@ button.submit {
 
 button.submit:hover {
     background: #163d9b;
+}
+
+@media screen and (min-width: 1024px) {
+    .bagatas h2 {
+        text-align: center;
+    }
+    
+    .bagatas h3 {
+        font-size: 20px;
+    }
+
+    body {
+        background-color: bisque;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .bagatas h2 {
+        text-align: center;
+    }
+    
+    .bagatas h3 {
+        font-size: 18px;
+    }
+
+    body {
+        background-color: beige;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bagatas h2 {
+        text-align: center;
+    }
+
+    .bagatas h3 {
+        font-size: 16px;
+    }
+    
+    .selection ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 380px;
+        height: 250px;
+    }
 }
